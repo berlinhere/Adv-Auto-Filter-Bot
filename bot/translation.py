@@ -4,12 +4,12 @@
 
 class Translation(object):
     
-    START_TEXT = """<b>Hai {}!!</b>
-<i>Am Just A Simple Hand Auto Filter Bot_ Bot For Searching Files From Channel...
+    START_TEXT = """<b> കണ്ടം വഴി ഓടിക്കോ 😏😏😏..."""
 
-Just Sent Any Text I Will Search In All Connected Chat And Reply You With The Message link
 
-You Can Even Connected To 3 Channels At A Time...</i>"""    
+
+
+
     
     HELP_TEXT = """<i><u>Usage Guide</u></i>
 
