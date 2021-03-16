@@ -29,7 +29,7 @@ async def start(bot, update):
         reply_to_message_id=update.message_id
     )
 
-@Client.on_message(filters.command("help") & filters.private)
+@Client.on_message(filters.command("helpprvt") & filters.private)
 async def help(bot, update):
     buttons = [[
         InlineKeyboardButton('Home ⚡', callback_data='start'),
@@ -48,7 +48,7 @@ async def help(bot, update):
         reply_to_message_id=update.message_id
     )
 
-@Client.on_message(filters.command("about") & filters.private)
+@Client.on_message(filters.command("aboutprvt") & filters.private)
 async def about(bot, update):
     buttons = [[
         InlineKeyboardButton('Home ⚡', callback_data='start'),
